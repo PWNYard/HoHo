@@ -1,6 +1,6 @@
 local hoho_uis = 0;
 spawn(function()
-    while task.wait(20) do
+    while task.wait(35) do
         for i,v in pairs(game:GetService("CoreGui"):GetChildren()) do
             if v["Name"] == "Hоhо_gеn4" then
                 hoho_uis += 1;
