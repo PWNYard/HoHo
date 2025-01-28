@@ -7,7 +7,7 @@ spawn(function()
             end;
         end;
         if hoho_uis ~= 2 then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/PWNYard/HoHo/refs/heads/main/MainComponent.lua")();
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/PWNYard/HoHo/refs/heads/main/MainComponent.lua"))();
         else
           break;
         end;
@@ -15,4 +15,4 @@ spawn(function()
     end;
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PWNYard/HoHo/refs/heads/main/MainComponent.lua")();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PWNYard/HoHo/refs/heads/main/MainComponent.lua"))();
